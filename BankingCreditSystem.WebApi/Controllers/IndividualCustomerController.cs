@@ -45,4 +45,4 @@ public class IndividualCustomersController : BaseController
         var result = await Mediator.Send(getListIndividualCustomerQuery);
         return Ok(result);
     }
-} 
+}

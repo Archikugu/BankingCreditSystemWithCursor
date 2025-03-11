@@ -1,11 +1,11 @@
 namespace BankingCreditSystem.Application.Features.CorporateCustomers.Constants
 {
-    public static class IndividualCustomerMessages
+    public static class CorporateCustomerMessages
     {
-        public const string CustomerNotFound = "Individual customer not found";
-        public const string NationalIdAlreadyExists = "National ID already exists";
-        public const string CustomerCreated = "Individual customer created successfully";
-        public const string CustomerUpdated = "Individual customer updated successfully";
-        public const string CustomerDeleted = "Individual customer deleted successfully";
+        public const string CustomerNotFound = "Corporate customer not found";
+        public const string TaxNumberAlreadyExists = "Tax number already exists";
+        public const string CustomerCreated = "Corporate customer created successfully";
+        public const string CustomerUpdated = "Corporate customer updated successfully";
+        public const string CustomerDeleted = "Corporate customer deleted successfully";
     }
 }
