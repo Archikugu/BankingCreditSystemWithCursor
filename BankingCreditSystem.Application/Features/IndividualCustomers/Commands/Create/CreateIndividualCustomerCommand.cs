@@ -4,6 +4,7 @@ using System.Threading.Tasks;
 using MediatR;
 using AutoMapper;
 using BankingCreditSystem.Application.Features.IndividualCustomers.Rules;
+using BankingCreditSystem.Application.Features.CorporateCustomers.Constants;
 
 namespace BankingCreditSystem.Application.Features.IndividualCustomers.Commands.Create
 {

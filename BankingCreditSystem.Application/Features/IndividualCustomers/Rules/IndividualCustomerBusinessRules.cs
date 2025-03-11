@@ -1,5 +1,6 @@
 using System;
 using System.Threading.Tasks;
+using BankingCreditSystem.Application.Features.CorporateCustomers.Constants;
 
 namespace BankingCreditSystem.Application.Features.IndividualCustomers.Rules
 {
