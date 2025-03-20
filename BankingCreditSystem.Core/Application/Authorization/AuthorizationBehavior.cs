@@ -4,6 +4,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using System.Linq;
 using System.Security.Claims;
+using BankingCreditSystem.Core.Security.Extensions;
 
 public class AuthorizationBehavior<TRequest, TResponse> : IPipelineBehavior<TRequest, TResponse>
     where TRequest : IRequest<TResponse>, ISecuredRequest

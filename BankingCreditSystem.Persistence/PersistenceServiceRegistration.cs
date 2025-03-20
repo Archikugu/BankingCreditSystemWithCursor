@@ -12,7 +12,7 @@ public static class PersistenceServiceRegistration
         services.AddDbContext<BaseDbContext>(options =>
         {
             options.UseSqlServer(configuration.GetConnectionString("DefaultConnection"));
-        });
+        }, ServiceLifetime.Scoped);
 
         // Repositories
         services.AddScoped<IIndividualCustomerRepository, IndividualCustomerRepository>();
