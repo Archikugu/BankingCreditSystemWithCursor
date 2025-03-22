@@ -4,6 +4,8 @@ public class CreatedIndividualCustomerResponse
     public string FirstName { get; set; } = default!;
     public string LastName { get; set; } = default!;
     public string NationalId { get; set; } = default!;
+    public string PhoneNumber { get; set; } = default!;
+    public string Email { get; set; } = default!;
     public DateTime CreatedDate { get; set; }
     public string Message { get; set; } = default!;
 } 
